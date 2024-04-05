@@ -6,14 +6,22 @@ if(sessionStorage.os_name == null){
                     var uap = new UAParser();
                     var result = uap.getResult();
                     sessionStorage.device_vendor = result.device.vendor;
+                    if(sessionStorage.device_vendor=='undefined'){sessionStorage.device_vendor='undefined';}
                     sessionStorage.device_model = result.device.model;
+                    if(sessionStorage.device_model=='undefined'){sessionStorage.device_model='';}
                     sessionStorage.cpu_architecture = result.cpu.architecture;
+                    if(sessionStorage.cpu_architecture=='undefined'){sessionStorage.cpu_architecture='undefined';}
                     sessionStorage.os_name = result.os.name;
+                    if(sessionStorage.os_name=='undefined'){sessionStorage.os_name='undefined';}
                     sessionStorage.os_num = getPCNum();
+                    if(sessionStorage.os_num=='undefined'){sessionStorage.os_num='';}
                     sessionStorage.browser_name = result.browser.name;
+                    if(sessionStorage.browser_name=='undefined'){sessionStorage.browser_name='undefined';}
                     sessionStorage.browser_version = result.browser.version;
+                    if(sessionStorage.browser_version=='undefined'){sessionStorage.browser_version='';}
                     uap.getOS().withClientHints().then(os => {
                       sessionStorage.os_version = os.version;
+                      if(sessionStorage.os_version=='undefined'){sessionStorage.os_version='';}
                   });
     }; 
     document.getElementsByTagName('head')[0].appendChild(uaparser);
