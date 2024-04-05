@@ -21,11 +21,10 @@ if(sessionStorage.os_name == null){
                     if(sessionStorage.browser_version=='undefined'){sessionStorage.browser_version='';}
                     uap.getOS().withClientHints().then(os => {
                       sessionStorage.os_version = os.version;
-                      if(sessionStorage.os_version=='undefined'){sessionStorage.os_version='';}
+                      ua();
                   });
     }; 
     document.getElementsByTagName('head')[0].appendChild(uaparser);
-ua();
 }else{
     ua();
 }
