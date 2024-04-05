@@ -18,7 +18,8 @@ if(sessionStorage.os_name == null){
     }; 
     document.getElementsByTagName('head')[0].appendChild(uaparser);
     function getPCNum(){var agent=navigator.userAgent.toLowerCase();var isMac=function(){return/macintosh|mac os x/i.test(navigator.userAgent)}();if(agent.indexOf("win32")>=0||agent.indexOf("wow32")>=0){return "X86"}if(agent.indexOf("win64")>=0||agent.indexOf("wow64")>=0){return "X64"}}
-}
+ua();
+}else{
     function ua() {
       let cpu = document.getElementById("cpu");
           cpu.innerText=sessionStorage.cpu_architecture;
@@ -33,4 +34,5 @@ if(sessionStorage.os_name == null){
           browser.innerText=sessionStorage.browser_name+" "+sessionStorage.browser_version;
           browser.href="/browser/"+sessionStorage.browser_name.toLowerCase().replace(/\s+/g, '')+".html";
     }
-    ua()
+    ua();
+}
