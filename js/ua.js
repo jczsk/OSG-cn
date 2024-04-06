@@ -17,7 +17,7 @@ if(sessionStorage.os_name == null){
                     if(sessionStorage.os_num=='undefined'){sessionStorage.os_num='';}
                     sessionStorage.browser_name = result.browser.name;
                     if(sessionStorage.browser_name=='undefined'){sessionStorage.browser_name='undefined';}
-                    sessionStorage.browser_version = result.browser.version;
+                    sessionStorage.browser_version = result.browser.major;
                     if(sessionStorage.browser_version=='undefined'){sessionStorage.browser_version='';}
                     uap.getOS().withClientHints().then(os => {
                       sessionStorage.os_version = os.version;
