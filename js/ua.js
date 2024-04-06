@@ -42,13 +42,13 @@ function ua() {
             ualist[i].innerHTML += "<p><span>处理器</span>:<a href='/cpu/"+sessionStorage.cpu_architecture.toLowerCase().replace(/\s+/g, '')+".html'>"+sessionStorage.cpu_architecture+"</a></p>"
         }
         if(sessionStorage.device_vendor != 'undefined'){
-            ualist[i].innerHTML += "<p><span>设备</span>:<a href='/device/"+sessionStorage.device_vendor.toLowerCase().replace(/\s+/g,'')+".html'>"+sessionStorage.device_vendor+" "+sessionStorage.device_model+"</a></p>"
+            ualist[i].innerHTML += "<p><span>设备</span>:<a href='/device/"+sessionStorage.device_vendor.toLowerCase().replace(/\s+/g,'')+".html#"+sessionStorage.device_vendor.replace(/\s+/g, '')+sessionStorage.device_model.replace(/\s+/g, '')+"'>"+sessionStorage.device_vendor+" "+sessionStorage.device_model+"</a></p>"
         }
         if(sessionStorage.os_name != 'undefined'){
-            ualist[i].innerHTML += "<p><span>系统</span>:<a href='/os/"+sessionStorage.os_name.toLowerCase().replace(/\s+/g, '')+".html'>"+sessionStorage.os_name+" "+sessionStorage.os_version+" "+sessionStorage.os_num+"</a></p>"
+            ualist[i].innerHTML += "<p><span>系统</span>:<a href='/os/"+sessionStorage.os_name.toLowerCase().replace(/\s+/g, '')+".html#"+sessionStorage.os_name.replace(/\s+/g, '')+sessionStorage.os_version+sessionStorage.os_num.replace(/\s+/g, '')+"'>"+sessionStorage.os_name+" "+sessionStorage.os_version+" "+sessionStorage.os_num+"</a></p>"
         }
         if(sessionStorage.browser_name != 'undefined'){
-            ualist[i].innerHTML += "<p><span>浏览器</span>:<a href='/browser/"+sessionStorage.browser_name.toLowerCase().replace(/\s+/g, '')+".html'>"+sessionStorage.browser_name+" "+sessionStorage.browser_version+"</a></p>"
+            ualist[i].innerHTML += "<p><span>浏览器</span>:<a href='/browser/"+sessionStorage.browser_name.toLowerCase().replace(/\s+/g, '')+".html#"+sessionStorage.browser_name.replace(/\s+/g, '')+sessionStorage.browser_version.replace(/\s+/g, '')+"'>"+sessionStorage.browser_name+" "+sessionStorage.browser_version+"</a></p>"
         }
         ualist[i].innerHTML += "<p>以上信息通过浏览器开放的UA（UserAgent）标识获取，准确性仅作参考！</p>"
     }
