@@ -1,0 +1,141 @@
+2345Explorer
+360Browser
+Amaya
+AndroidBrowser
+Arora
+Avant
+Avast
+AVG
+BIDUBrowser
+Baidu
+Basilisk
+Blazer
+Bolt
+Brave
+Bowser
+Camino
+Chimera
+Chrome
+Chrome Headless
+Chrome WebView
+Mobile Chrome
+Mobile Chrome Headless
+Mobile Chrome WebView
+Chromium
+Cobalt
+ComodoDragon
+Dillo
+Dolphin
+Doris
+DuckDuckGo
+Edge
+Electron
+Epiphany
+Facebook
+Falkon
+Fennec
+Firebird
+Firefox
+Firefox Focus
+Firefox Reality
+Mobile Firefox
+Mobile Firefox Focus
+Mobile Firefox Reality
+Flock
+Flow
+GSA
+GoBrowser
+HeyTap
+HuaweiBrowser
+ICEBrowser
+IE
+IEMobile
+IceApe
+IceCat
+IceDragon
+Iceweasel
+Instagram
+Iridium
+Iron
+Jasmine
+Kakao
+Kakao Story
+Kakao Talk
+K-Meleon
+Kindle
+Klar
+Konqueror
+LBBROWSER
+Line
+LinkedIn
+Links
+Lunascape
+Lynx
+MIUIBrowser
+MaemoBrowser
+Maemo
+Maxthon
+MetaSr
+Midori
+Minimo
+Mosaic
+Mozilla
+NetFront
+NetSurf
+Netfront
+Netscape
+NokiaBrowser
+Obigo
+OculusBrowser
+OmniWeb
+OperaCoast
+Opera
+Opera Mini
+Opera Mobi
+Opera Tablet
+PaleMoon
+PhantomJS
+Phoenix
+Polaris
+Puffin
+QQ
+QQBrowser
+QQBrowserLite
+Quark
+QupZilla
+RockMelt
+Safari
+Mobile Safari
+SailfishBrowser
+SamsungBrowser
+SeaMonkey
+Silk
+Skyfire
+Sleipnir
+Slim
+SlimBrowser
+Swiftfox
+Tesla
+TikTok
+TizenBrowser
+UCBrowser
+UP.Browser
+Viera
+Vivaldi
+Waterfox
+WeChat
+Weibo
+Yandex
+iCab
+w3m
+WhaleBrowser
+Blink
+EdgeHTML
+Gecko
+Goanna
+KHTML
+LibWeb
+Presto
+Tasman
+Trident
+WebKit

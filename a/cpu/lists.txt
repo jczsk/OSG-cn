@@ -1,0 +1,17 @@
+68k
+amd64
+arm
+arm64
+armhf
+avr
+ia
+ia32
+ia64
+irix
+irix64
+mips
+mips64
+pa-risc
+ppc
+sparc
+sparc64
